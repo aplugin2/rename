@@ -1,4 +1,4 @@
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<11!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="SQLServer2008">
     <parameter name="url" value="jdbc:JSQLConnect://WIN-6N08DQIF6DA:1433"/>
     <parameter name="user" value="sa"/>

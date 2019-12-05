@@ -1,4 +1,4 @@
-PUT /repository
+1PUT /repository
 
 I've created 2 repos: id=1 is global, id=2 is not global with mapped project
 
