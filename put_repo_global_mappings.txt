@@ -1,0 +1,582 @@
+PUT /repository
+
+I've created 2 repos: id=1 is global, id=2 is not global with mapped project
+
+// null, null
+{
+	"id": 1,
+	"showAllTags": false	
+}
+
+{
+    "id": 1,
+    "displayName": "global-jiragit-test-data",
+    "origin": "https://github.com/AndreyLevchenko/jiragit-test-data.git",
+    "root": "E:\\project\\GIT_PLUGIN\\jira-git-plugin\\code\\target\\jira\\home\\data\\git-plugin\\1_jiragit-test-data",
+    "realRoot": "1_jiragit-test-data",
+    "absoluteRoot": false,
+    "disabled": false,
+    "enableFetches": true,
+    "sendCommitEmails": true,
+    "maxMinsToCommitEmail": 1440,
+    "global": false,
+    "hosted": false,
+    "initDate": 1568707014131,
+    "lastIndexedDate": 1568779822875,
+    "revisionIndexing": true,
+    "revisionCacheSize": 10000,
+    "gitViewerEnabled": false,
+    "disableSslVerification": false,
+    "smartCommitsEnabled": true,
+    "username": "admin",
+    "password": "",
+    "commitsValidationRequired": true,
+    "requireUserPat": false,
+    "projectMappingIds": [],
+    "showAllTags": true,
+    "sourcesDiffViewEnabled": true,
+    "limitGitData": true
+}
+
+{
+    "id": 2,
+    "displayName": "jiragit-test-data",
+    "origin": "https://github.com/AndreyLevchenko/jiragit-test-data.git",
+    "root": "E:\\project\\GIT_PLUGIN\\jira-git-plugin\\code\\target\\jira\\home\\data\\git-plugin\\1_jiragit-test-data",
+    "realRoot": "1_jiragit-test-data",
+    "absoluteRoot": false,
+    "disabled": false,
+    "enableFetches": true,
+    "sendCommitEmails": true,
+    "maxMinsToCommitEmail": 1440,
+    "global": false,
+    "hosted": false,
+    "initDate": 1568707014131,
+    "revisionIndexing": true,
+    "revisionCacheSize": 10000,
+    "gitViewerEnabled": false,
+    "disableSslVerification": false,
+    "smartCommitsEnabled": true,
+    "username": "admin",
+    "password": "",
+    "commitsValidationRequired": true,
+    "requireUserPat": false,
+    "projectMappingIds": [
+        10000
+    ],
+    "showAllTags": true,
+    "sourcesDiffViewEnabled": true,
+    "limitGitData": true
+}
+
+// true, null
+{
+	"id": 1,
+	"global" : true
+}
+
+{
+    "id": 1,
+    "displayName": "global-jiragit-test-data",
+    "origin": "https://github.com/AndreyLevchenko/jiragit-test-data.git",
+    "root": "E:\\project\\GIT_PLUGIN\\jira-git-plugin\\code\\target\\jira\\home\\data\\git-plugin\\1_jiragit-test-data",
+    "realRoot": "1_jiragit-test-data",
+    "absoluteRoot": false,
+    "disabled": false,
+    "enableFetches": true,
+    "sendCommitEmails": true,
+    "maxMinsToCommitEmail": 1440,
+    "global": true,
+    "hosted": false,
+    "initDate": 1568707014131,
+    "lastIndexedDate": 1568779822875,
+    "revisionIndexing": true,
+    "revisionCacheSize": 10000,
+    "gitViewerEnabled": false,
+    "disableSslVerification": false,
+    "smartCommitsEnabled": true,
+    "username": "admin",
+    "password": "",
+    "commitsValidationRequired": true,
+    "requireUserPat": false,
+    "projectMappingIds": [],
+    "showAllTags": true,
+    "sourcesDiffViewEnabled": true,
+    "limitGitData": true
+}
+
+{
+    "id": 2,
+    "displayName": "jiragit-test-data",
+    "origin": "https://github.com/AndreyLevchenko/jiragit-test-data.git",
+    "root": "E:\\project\\GIT_PLUGIN\\jira-git-plugin\\code\\target\\jira\\home\\data\\git-plugin\\1_jiragit-test-data",
+    "realRoot": "1_jiragit-test-data",
+    "absoluteRoot": false,
+    "disabled": false,
+    "enableFetches": true,
+    "sendCommitEmails": true,
+    "maxMinsToCommitEmail": 1440,
+    "global": true,
+    "hosted": false,
+    "initDate": 1568707014131,
+    "lastIndexedDate": 1568779823980,
+    "revisionIndexing": true,
+    "revisionCacheSize": 10000,
+    "gitViewerEnabled": false,
+    "disableSslVerification": false,
+    "smartCommitsEnabled": true,
+    "username": "admin",
+    "password": "",
+    "commitsValidationRequired": true,
+    "requireUserPat": false,
+    "projectMappingIds": [],
+    "showAllTags": true,
+    "sourcesDiffViewEnabled": true,
+    "limitGitData": true
+}
+
+// false, null
+{
+	"id": 1,
+	"global" : false
+}
+
+{
+    "id": 1,
+    "displayName": "global-jiragit-test-data",
+    "origin": "https://github.com/AndreyLevchenko/jiragit-test-data.git",
+    "root": "E:\\project\\GIT_PLUGIN\\jira-git-plugin\\code\\target\\jira\\home\\data\\git-plugin\\1_jiragit-test-data",
+    "realRoot": "1_jiragit-test-data",
+    "absoluteRoot": false,
+    "disabled": false,
+    "enableFetches": true,
+    "sendCommitEmails": true,
+    "maxMinsToCommitEmail": 1440,
+    "global": false,
+    "hosted": false,
+    "initDate": 1568707014131,
+    "lastIndexedDate": 1568780422084,
+    "revisionIndexing": true,
+    "revisionCacheSize": 10000,
+    "gitViewerEnabled": false,
+    "disableSslVerification": false,
+    "smartCommitsEnabled": true,
+    "username": "admin",
+    "password": "",
+    "commitsValidationRequired": true,
+    "requireUserPat": false,
+    "projectMappingIds": [],
+    "showAllTags": true,
+    "sourcesDiffViewEnabled": true,
+    "limitGitData": true
+}
+
+{
+    "id": 2,
+    "displayName": "jiragit-test-data",
+    "origin": "https://github.com/AndreyLevchenko/jiragit-test-data.git",
+    "root": "E:\\project\\GIT_PLUGIN\\jira-git-plugin\\code\\target\\jira\\home\\data\\git-plugin\\1_jiragit-test-data",
+    "realRoot": "1_jiragit-test-data",
+    "absoluteRoot": false,
+    "disabled": false,
+    "enableFetches": true,
+    "sendCommitEmails": true,
+    "maxMinsToCommitEmail": 1440,
+    "global": false,
+    "hosted": false,
+    "initDate": 1568707014131,
+    "lastIndexedDate": 1568779823980,
+    "revisionIndexing": true,
+    "revisionCacheSize": 10000,
+    "gitViewerEnabled": false,
+    "disableSslVerification": false,
+    "smartCommitsEnabled": true,
+    "username": "admin",
+    "password": "",
+    "commitsValidationRequired": true,
+    "requireUserPat": false,
+    "projectMappingIds": [
+        10000
+    ],
+    "showAllTags": true,
+    "sourcesDiffViewEnabled": true,
+    "limitGitData": true
+}
+
+// null, []
+{
+	"id": 1,
+	"projectMappingIds": []
+}
+
+{
+    "id": 1,
+    "displayName": "global-jiragit-test-data",
+    "origin": "https://github.com/AndreyLevchenko/jiragit-test-data.git",
+    "root": "E:\\project\\GIT_PLUGIN\\jira-git-plugin\\code\\target\\jira\\home\\data\\git-plugin\\1_jiragit-test-data",
+    "realRoot": "1_jiragit-test-data",
+    "absoluteRoot": false,
+    "disabled": false,
+    "enableFetches": true,
+    "sendCommitEmails": true,
+    "maxMinsToCommitEmail": 1440,
+    "global": false,
+    "hosted": false,
+    "initDate": 1568707014131,
+    "lastIndexedDate": 1568780422084,
+    "revisionIndexing": true,
+    "revisionCacheSize": 10000,
+    "gitViewerEnabled": false,
+    "disableSslVerification": false,
+    "smartCommitsEnabled": true,
+    "username": "admin",
+    "password": "",
+    "commitsValidationRequired": true,
+    "requireUserPat": false,
+    "projectMappingIds": [],
+    "showAllTags": true,
+    "sourcesDiffViewEnabled": true,
+    "limitGitData": true
+}
+
+{
+    "id": 2,
+    "displayName": "jiragit-test-data",
+    "origin": "https://github.com/AndreyLevchenko/jiragit-test-data.git",
+    "root": "E:\\project\\GIT_PLUGIN\\jira-git-plugin\\code\\target\\jira\\home\\data\\git-plugin\\1_jiragit-test-data",
+    "realRoot": "1_jiragit-test-data",
+    "absoluteRoot": false,
+    "disabled": false,
+    "enableFetches": true,
+    "sendCommitEmails": true,
+    "maxMinsToCommitEmail": 1440,
+    "global": false,
+    "hosted": false,
+    "initDate": 1568707014131,
+    "lastIndexedDate": 1568780422723,
+    "revisionIndexing": true,
+    "revisionCacheSize": 10000,
+    "gitViewerEnabled": false,
+    "disableSslVerification": false,
+    "smartCommitsEnabled": true,
+    "username": "admin",
+    "password": "",
+    "commitsValidationRequired": true,
+    "requireUserPat": false,
+    "projectMappingIds": [],
+    "showAllTags": true,
+    "sourcesDiffViewEnabled": true,
+    "limitGitData": true
+}
+
+// true, []
+{
+	"id": 1,
+	"projectMappingIds": [],
+	"global" : true
+}
+
+{
+    "id": 1,
+    "displayName": "global-jiragit-test-data",
+    "origin": "https://github.com/AndreyLevchenko/jiragit-test-data.git",
+    "root": "E:\\project\\GIT_PLUGIN\\jira-git-plugin\\code\\target\\jira\\home\\data\\git-plugin\\1_jiragit-test-data",
+    "realRoot": "1_jiragit-test-data",
+    "absoluteRoot": false,
+    "disabled": false,
+    "enableFetches": true,
+    "sendCommitEmails": true,
+    "maxMinsToCommitEmail": 1440,
+    "global": true,
+    "hosted": false,
+    "initDate": 1568707014131,
+    "lastIndexedDate": 1568780422084,
+    "revisionIndexing": true,
+    "revisionCacheSize": 10000,
+    "gitViewerEnabled": false,
+    "disableSslVerification": false,
+    "smartCommitsEnabled": true,
+    "username": "admin",
+    "password": "",
+    "commitsValidationRequired": true,
+    "requireUserPat": false,
+    "projectMappingIds": [],
+    "showAllTags": true,
+    "sourcesDiffViewEnabled": true,
+    "limitGitData": true
+}
+
+{
+    "id": 2,
+    "displayName": "jiragit-test-data",
+    "origin": "https://github.com/AndreyLevchenko/jiragit-test-data.git",
+    "root": "E:\\project\\GIT_PLUGIN\\jira-git-plugin\\code\\target\\jira\\home\\data\\git-plugin\\1_jiragit-test-data",
+    "realRoot": "1_jiragit-test-data",
+    "absoluteRoot": false,
+    "disabled": false,
+    "enableFetches": true,
+    "sendCommitEmails": true,
+    "maxMinsToCommitEmail": 1440,
+    "global": true,
+    "hosted": false,
+    "initDate": 1568707014131,
+    "lastIndexedDate": 1568780422723,
+    "revisionIndexing": true,
+    "revisionCacheSize": 10000,
+    "gitViewerEnabled": false,
+    "disableSslVerification": false,
+    "smartCommitsEnabled": true,
+    "username": "admin",
+    "password": "",
+    "commitsValidationRequired": true,
+    "requireUserPat": false,
+    "projectMappingIds": [],
+    "showAllTags": true,
+    "sourcesDiffViewEnabled": true,
+    "limitGitData": true
+}
+
+// false, []
+{
+	"id": 1,
+	"projectMappingIds": [],
+	"global" : false
+}
+
+{
+    "id": 1,
+    "displayName": "global-jiragit-test-data",
+    "origin": "https://github.com/AndreyLevchenko/jiragit-test-data.git",
+    "root": "E:\\project\\GIT_PLUGIN\\jira-git-plugin\\code\\target\\jira\\home\\data\\git-plugin\\1_jiragit-test-data",
+    "realRoot": "1_jiragit-test-data",
+    "absoluteRoot": false,
+    "disabled": false,
+    "enableFetches": true,
+    "sendCommitEmails": true,
+    "maxMinsToCommitEmail": 1440,
+    "global": false,
+    "hosted": false,
+    "initDate": 1568707014131,
+    "lastIndexedDate": 1568780722107,
+    "revisionIndexing": true,
+    "revisionCacheSize": 10000,
+    "gitViewerEnabled": false,
+    "disableSslVerification": false,
+    "smartCommitsEnabled": true,
+    "username": "admin",
+    "password": "",
+    "commitsValidationRequired": true,
+    "requireUserPat": false,
+    "projectMappingIds": [],
+    "showAllTags": true,
+    "sourcesDiffViewEnabled": true,
+    "limitGitData": true
+}
+
+// null, [xxx]
+{
+	"id": 1,
+	"projectMappingIds": [10000]
+}
+
+{
+    "id": 1,
+    "displayName": "global-jiragit-test-data",
+    "origin": "https://github.com/AndreyLevchenko/jiragit-test-data.git",
+    "root": "E:\\project\\GIT_PLUGIN\\jira-git-plugin\\code\\target\\jira\\home\\data\\git-plugin\\1_jiragit-test-data",
+    "realRoot": "1_jiragit-test-data",
+    "absoluteRoot": false,
+    "disabled": false,
+    "enableFetches": true,
+    "sendCommitEmails": true,
+    "maxMinsToCommitEmail": 1440,
+    "global": false,
+    "hosted": false,
+    "initDate": 1568707014131,
+    "lastIndexedDate": 1568780722107,
+    "revisionIndexing": true,
+    "revisionCacheSize": 10000,
+    "gitViewerEnabled": false,
+    "disableSslVerification": false,
+    "smartCommitsEnabled": true,
+    "username": "admin",
+    "password": "",
+    "commitsValidationRequired": true,
+    "requireUserPat": false,
+    "projectMappingIds": [
+        10000
+    ],
+    "showAllTags": true,
+    "sourcesDiffViewEnabled": true,
+    "limitGitData": true
+}
+
+{
+    "id": 2,
+    "displayName": "jiragit-test-data",
+    "origin": "https://github.com/AndreyLevchenko/jiragit-test-data.git",
+    "root": "E:\\project\\GIT_PLUGIN\\jira-git-plugin\\code\\target\\jira\\home\\data\\git-plugin\\1_jiragit-test-data",
+    "realRoot": "1_jiragit-test-data",
+    "absoluteRoot": false,
+    "disabled": false,
+    "enableFetches": true,
+    "sendCommitEmails": true,
+    "maxMinsToCommitEmail": 1440,
+    "global": false,
+    "hosted": false,
+    "initDate": 1568707014131,
+    "lastIndexedDate": 1568780722726,
+    "revisionIndexing": true,
+    "revisionCacheSize": 10000,
+    "gitViewerEnabled": false,
+    "disableSslVerification": false,
+    "smartCommitsEnabled": true,
+    "username": "admin",
+    "password": "",
+    "commitsValidationRequired": true,
+    "requireUserPat": false,
+    "projectMappingIds": [
+        10000
+    ],
+    "showAllTags": true,
+    "sourcesDiffViewEnabled": true,
+    "limitGitData": true
+}
+
+// true, [xxx]
+{
+	"id": 1,
+	"projectMappingIds": [10000],
+	"global" : true
+}
+
+{
+    "id": 1,
+    "displayName": "global-jiragit-test-data",
+    "origin": "https://github.com/AndreyLevchenko/jiragit-test-data.git",
+    "root": "E:\\project\\GIT_PLUGIN\\jira-git-plugin\\code\\target\\jira\\home\\data\\git-plugin\\1_jiragit-test-data",
+    "realRoot": "1_jiragit-test-data",
+    "absoluteRoot": false,
+    "disabled": false,
+    "enableFetches": true,
+    "sendCommitEmails": true,
+    "maxMinsToCommitEmail": 1440,
+    "global": true,
+    "hosted": false,
+    "initDate": 1568707014131,
+    "lastIndexedDate": 1568781022121,
+    "revisionIndexing": true,
+    "revisionCacheSize": 10000,
+    "gitViewerEnabled": false,
+    "disableSslVerification": false,
+    "smartCommitsEnabled": true,
+    "username": "admin",
+    "password": "",
+    "commitsValidationRequired": true,
+    "requireUserPat": false,
+    "projectMappingIds": [],
+    "showAllTags": true,
+    "sourcesDiffViewEnabled": true,
+    "limitGitData": true
+}
+
+{
+    "id": 2,
+    "displayName": "jiragit-test-data",
+    "origin": "https://github.com/AndreyLevchenko/jiragit-test-data.git",
+    "root": "E:\\project\\GIT_PLUGIN\\jira-git-plugin\\code\\target\\jira\\home\\data\\git-plugin\\1_jiragit-test-data",
+    "realRoot": "1_jiragit-test-data",
+    "absoluteRoot": false,
+    "disabled": false,
+    "enableFetches": true,
+    "sendCommitEmails": true,
+    "maxMinsToCommitEmail": 1440,
+    "global": true,
+    "hosted": false,
+    "initDate": 1568707014131,
+    "lastIndexedDate": 1568781022768,
+    "revisionIndexing": true,
+    "revisionCacheSize": 10000,
+    "gitViewerEnabled": false,
+    "disableSslVerification": false,
+    "smartCommitsEnabled": true,
+    "username": "admin",
+    "password": "",
+    "commitsValidationRequired": true,
+    "requireUserPat": false,
+    "projectMappingIds": [],
+    "showAllTags": true,
+    "sourcesDiffViewEnabled": true,
+    "limitGitData": true
+}
+
+// false, [xxx]
+{
+	"id": 1,
+	"projectMappingIds": [10000],
+	"global" : false
+}
+
+{
+    "id": 1,
+    "displayName": "global-jiragit-test-data",
+    "origin": "https://github.com/AndreyLevchenko/jiragit-test-data.git",
+    "root": "E:\\project\\GIT_PLUGIN\\jira-git-plugin\\code\\target\\jira\\home\\data\\git-plugin\\1_jiragit-test-data",
+    "realRoot": "1_jiragit-test-data",
+    "absoluteRoot": false,
+    "disabled": false,
+    "enableFetches": true,
+    "sendCommitEmails": true,
+    "maxMinsToCommitEmail": 1440,
+    "global": false,
+    "hosted": false,
+    "initDate": 1568707014131,
+    "lastIndexedDate": 1568781322085,
+    "revisionIndexing": true,
+    "revisionCacheSize": 10000,
+    "gitViewerEnabled": false,
+    "disableSslVerification": false,
+    "smartCommitsEnabled": true,
+    "username": "admin",
+    "password": "",
+    "commitsValidationRequired": true,
+    "requireUserPat": false,
+    "projectMappingIds": [
+        10000
+    ],
+    "showAllTags": true,
+    "sourcesDiffViewEnabled": true,
+    "limitGitData": true
+}
+
+{
+    "id": 2,
+    "displayName": "jiragit-test-data",
+    "origin": "https://github.com/AndreyLevchenko/jiragit-test-data.git",
+    "root": "E:\\project\\GIT_PLUGIN\\jira-git-plugin\\code\\target\\jira\\home\\data\\git-plugin\\1_jiragit-test-data",
+    "realRoot": "1_jiragit-test-data",
+    "absoluteRoot": false,
+    "disabled": false,
+    "enableFetches": true,
+    "sendCommitEmails": true,
+    "maxMinsToCommitEmail": 1440,
+    "global": false,
+    "hosted": false,
+    "initDate": 1568707014131,
+    "lastIndexedDate": 1568781322736,
+    "revisionIndexing": true,
+    "revisionCacheSize": 10000,
+    "gitViewerEnabled": false,
+    "disableSslVerification": false,
+    "smartCommitsEnabled": true,
+    "username": "admin",
+    "password": "",
+    "commitsValidationRequired": true,
+    "requireUserPat": false,
+    "projectMappingIds": [
+        10000
+    ],
+    "showAllTags": true,
+    "sourcesDiffViewEnabled": true,
+    "limitGitData": true
+}
