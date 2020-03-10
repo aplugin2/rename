@@ -45,4 +45,4 @@ If a matching connection is available in the pool then the pool returns a connec
 https://docs.oracle.com/en/database/oracle/oracle-database/12.2/admin/sharding-data-routing.html#GUID-A49CEDDD-49F7-49EF-B83B-74048A63021E
 
 String url = "jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(HOST=shard-dir1)(PORT=3216)(PROTOCOL=tcp))(CONNECT_DATA=(SERVICE_NAME=shsvc.shpool.oradbcloud)(REGION=east)))";
-    
+    sdsadsd
